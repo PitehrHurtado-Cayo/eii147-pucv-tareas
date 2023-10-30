@@ -58,4 +58,8 @@ public class Hectarea {
         }
         return cantidadVinoObtenible;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
 }
