@@ -1,0 +1,37 @@
+Integrante: PITEHR HURTADO
+
+HECTAREA:
+
+Resultado de las pruebas:
+
+testExisteMataVinoInexistente:
+	resultado: PASSED puntaje: 1.0
+
+testExisteMataVinoExistente:
+	resultado (after planting): PASSED puntaje: 1.0
+
+testPlantarMataVinoDiferenteCepa:
+	resultado: PASSED puntaje: 1.0
+
+testPlantarMataVinoMismaCepa:
+	resultado: PASSED puntaje: 1.0
+
+testPlantarMataVino:
+	resultado (when full): PASSED puntaje: 1.0
+
+testCosecharVinoDistintaCepa:
+	resultado: FAILED
+		Exception: Cannot invoke "org.example.MataVino.estaListoParaCosechar()" because "this.mataVinos[i][j]" is null
+
+testCosecharVinoMismaCepaNoPreparado:
+	resultado: FAILED
+		Exception: Cannot invoke "org.example.MataVino.estaListoParaCosechar()" because "this.mataVinos[i][j]" is null
+
+testCosecharVinoMismaCepaSoloPreparado:
+	resultado: FAILED
+		Exception: Cannot invoke "org.example.MataVino.estaListoParaCosechar()" because "this.mataVinos[i][j]" is null
+
+
+
+Puntaje obtenido: 5.0
+
